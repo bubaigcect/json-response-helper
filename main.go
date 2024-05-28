@@ -35,7 +35,10 @@ func JsonResponse(w http.ResponseWriter, message string, data interface{}, statu
 
 	w.Header().Set("Content-Type", "application/json")
 	w.WriteHeader(code)
-	json.NewEncoder(w).Encode(response)
+	err := json.NewEncoder(w).Encode(response)
+	if err != nil {
+		http.Error(w, err.Error(), http.StatusInternalServerError)
+	}
 }
 
 // Function to check if an code is present in a slice of status codes
