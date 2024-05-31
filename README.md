@@ -4,8 +4,6 @@
 `json-response-helper` is a simple Go package designed to facilitate the creation and handling of JSON responses in HTTP servers. It provides a function to standardize the structure and content of JSON responses, making it easier to ensure consistency across your HTTP endpoints.
 
 
-
-
 ## Features
 
 - Constructs JSON responses with a consistent structure.
@@ -70,8 +68,27 @@ The JSON response structure created by `JsonResponse` is defined by the `Respons
     "message": "Request successful",
     "data": {
         "example": "data"
-    },
-    "response_code": 0
+    }
 }
 ```
 
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
+
+
+## 🔗 Links
+
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/bubaigcect/)
+
+## 🚀 About Me
+
+I'm a seasoned full-stack developer with 9+ years of experience in building scalable web applications. My expertise includes frontend development with React and backend development using Golang, Node.js, Python, and PHP. I am dedicated to delivering top-notch solutions that fulfill client requirements and support business goals, leveraging my diverse skill set and unwavering commitment to quality.
+## Contributing
+
+Contributions are welcome! Please feel free to submit a pull request or open an issue.
+
+## Contact
+
+For any questions or feedback, please reach out to us at bubaisaha.developer@gmail.com
