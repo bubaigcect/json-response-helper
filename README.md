@@ -54,7 +54,7 @@ The JSON response structure created by `JsonResponse` is defined by the `Respons
 ### Response Fields
 
 - `Status` (`bool`): Indicates the success or failure of the request.
-- Code (int): The HTTP status code.
+- `Code` (`int`): The HTTP status code.
 - `Message` (`string`): A descriptive message about the response.
 - `Data` (`interface{}`): The response data.
 - `ResponseCode` (`int`, optional): A custom response code if provided.
